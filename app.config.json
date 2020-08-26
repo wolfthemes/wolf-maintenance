@@ -1,0 +1,14 @@
+{
+	"version": "1.0.5",
+	"updated": "2020-08-10",
+	"slug": "wolf-maintenance",
+	"name": "Wolf Maintenance",
+	"packagename": "WolfMaintenance",
+	"created": "2016-08-30",
+	"createdNice": "30th August 2016",
+	"description": "A plugin to manage your maintenance page.",
+	"link": "https://github.com/wolfthemes/wolf-maintenance",
+	"shortlink": "http://wlfthm.es/wolf-maintenance",
+	"author": "WolfThemes",
+	"authorURI": "http://wolfthemes.com"
+}

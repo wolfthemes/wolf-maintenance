@@ -1,0 +1,16 @@
+{
+	"name": "wolfthemes/wolf-maintenance",
+	"description": "A plugin to manage your maintenance page.",
+	"type": "wordpress-plugin",
+	"homepage": "https://github.com/wolfthemes/wolf-maintenance",
+	"authors": [
+		{
+			"name": "WolfThemes",
+			"email": "contact@wolfthemes.com",
+			"homepage": "https://wolfthemes.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	}
+}

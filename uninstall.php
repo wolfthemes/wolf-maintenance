@@ -1,15 +1,13 @@
 <?php
 /**
- * %NAME% Uninstall
+ * Wolf Maintenance Uninstall
  *
- * Uninstalling %NAME%
+ * Uninstalling Wolf Maintenance
  *
- * @author %AUTHOR%
+ * @author WolfThemes
  * @category Core
- * @package %PACKAGENAME%/Uninstaller
- * @version %VERSION%
+ * @package WolfMaintenance/Uninstaller
+ * @version 1.0.5
  */
 
-if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;

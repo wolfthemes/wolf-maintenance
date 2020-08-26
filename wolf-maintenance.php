@@ -1,29 +1,27 @@
 <?php
 /**
- * Plugin Name: Wolf Maintenance
- * Plugin URI: %LINK%
- * Description: %DESCRIPTION%
- * Version: %VERSION%
- * Author: %AUTHOR%
- * Author URI: %AUTHORURI%
- * Requires at least: %REQUIRES%
- * Tested up to: %TESTED%
+ * Plugin Name: Wolf Maintenance Page
+ * Plugin URI: https://github.com/wolfthemes/wolf-maintenance
+ * Description: A plugin to manage your maintenance page.
+ * Version: 1.0.6
+ * Author: WolfThemes
+ * Author URI: http://wolfthemes.com
+ * Requires at least: 5.0
+ * Tested up to: 5.5
  *
- * Text Domain: %TEXTDOMAIN%
+ * Text Domain: wolf-maintenance
  * Domain Path: /languages/
  *
- * @package %PACKAGENAME%
+ * @package WolfMaintenance
  * @category Core
- * @author %AUTHOR%
+ * @author WolfThemes
  *
  * Verified customers who have purchased a premium theme at https://wlfthm.es/tf/
  * will have access to support for this plugin in the forums
  * https://wlfthm.es/help/
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'Wolf_Maintenance' ) ) {
 	/**
@@ -32,7 +30,7 @@ if ( ! class_exists( 'Wolf_Maintenance' ) ) {
 	 * Contains the main functions for Wolf_Maintenance
 	 *
 	 * @class Wolf_Maintenance
-	 * @version %VERSION%
+	 * @version 1.0.6
 	 * @since 1.0.0
 	 */
 	class Wolf_Maintenance {
@@ -123,7 +121,7 @@ if ( ! class_exists( 'Wolf_Maintenance' ) ) {
 		 * Alignment Setting
 		 */
 		public function setting_page_id() {
-			$page_option = array( '' => esc_html__( '- Disabled -', '%TEXTDOMAIN%' ) );
+			$page_option = array( '' => esc_html__( '- Disabled -', 'wolf-maintenance' ) );
 			$pages = get_pages();
 
 			foreach ( $pages as $page ) {
@@ -215,7 +213,7 @@ if ( ! class_exists( 'Wolf_Maintenance' ) ) {
 		 */
 		public function settings_action_links( $links ) {
 			$setting_link = array(
-				'<a href="' . admin_url( 'tools.php?page=wolf-maintenance' ) . '">' . esc_html__( 'Settings', '%TEXTDOMAIN%' ) . '</a>',
+				'<a href="' . admin_url( 'tools.php?page=wolf-maintenance' ) . '">' . esc_html__( 'Settings', 'wolf-maintenance' ) . '</a>',
 			);
 			return array_merge( $links, $setting_link );
 		}

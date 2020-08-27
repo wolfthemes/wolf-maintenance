@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Wolf Maintenance Page
+ * Plugin Name: Maintenance Page
  * Plugin URI: https://github.com/wolfthemes/wolf-maintenance
  * Description: A plugin to manage your maintenance page.
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: WolfThemes
  * Author URI: http://wolfthemes.com
  * Requires at least: 5.0
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wolf_Maintenance' ) ) {
 	 * Contains the main functions for Wolf_Maintenance
 	 *
 	 * @class Wolf_Maintenance
-	 * @version 1.0.6
+	 * @version 1.0.7
 	 * @since 1.0.0
 	 */
 	class Wolf_Maintenance {

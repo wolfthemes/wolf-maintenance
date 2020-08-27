@@ -1,4 +1,4 @@
-# Thanks for downloading Wolf Maintenance Page!
+# Thanks for downloading Maintenance Page!
 
 A plugin to manage your maintenance page.
 
